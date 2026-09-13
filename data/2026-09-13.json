@@ -1,7 +1,7 @@
 {
   "date": "2026-09-13",
   "persona": "@augmc2",
-  "lastUpdated": "2026-09-13T18:00:00Z",
+  "lastUpdated": "2026-09-13T18:06:00Z",
   "items": [
     {
       "tier": "Nintendo",
@@ -44,25 +44,6 @@
         {
           "label": "GameInformer",
           "url": "https://gameinformer.com/nintendo-direct/2026/09/09/nintendo-reveals-metroid-ravenous-a-new-2d-entry-out-in-january"
-        }
-      ]
-    },
-    {
-      "tier": "Nintendo",
-      "image": "images/official/fire-emblem-fortunes-weave.jpg",
-      "imageCredit": "Nintendo / Serenes Forest",
-      "headline": "NEW: Fire Emblem: Fortune's Weave announced \u2014 a new mainline tactics RPG, Sept 17, 2026",
-      "why": "Fresh since this morning \u2014 a brand-new Fire Emblem is dropping in 4 days, and tactics RPGs sit right in your genre lane.",
-      "summary": "Nintendo confirmed a new mainline Fire Emblem entry with a surprisingly close release date. Box art and pricing have been revealed alongside the announcement.",
-      "keyFacts": [
-        "Release date: September 17, 2026 (this week)",
-        "Genre: mainline tactics RPG",
-        "Platform: Nintendo Switch / Switch 2"
-      ],
-      "sources": [
-        {
-          "label": "Nintendo Life",
-          "url": "https://www.nintendolife.com/news/2026/06/fire-emblem-fortunes-weave-price-and-box-art-revealed"
         }
       ]
     },
