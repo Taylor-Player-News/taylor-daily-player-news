@@ -1,0 +1,179 @@
+{
+  "date": "2026-09-13",
+  "persona": "@augmc2",
+  "lastUpdated": "2026-09-13T17:05:00Z",
+  "items": [
+    {
+      "tier": "Nintendo",
+      "image": "images/official/zelda-ocarina-remake.jpg",
+      "imageCredit": "Nintendo / Nintendo Life",
+      "headline": "Zelda: Ocarina of Time gets a full Switch 2 remake — Nov 5, 2026",
+      "why": "The exact kind of first-party Nintendo remake hype you post about.",
+      "summary": "Revealed at the Sept 8 Zelda 40th Anniversary Direct, this is a ground-up remake (not a remaster) with free jumping/sprint, full camera control, voiced cinematics, and ocarina input played by humming/singing into the Switch 2 mic. A live-action Zelda film and a special-edition Switch 2 console/controller were also announced alongside it.",
+      "keyFacts": [
+        "Release date: November 5, 2026",
+        "Platform: Nintendo Switch 2 only",
+        "Price: $59.99",
+        "New: full camera control, voiced cutscenes, mic-based ocarina play",
+        "Also announced: live-action Zelda film (Apr 30, 2027), special-edition Switch 2 console (Oct 29)"
+      ],
+      "sources": [
+        {"label": "Nintendo Life recap", "url": "https://www.nintendolife.com/guides/zelda-40th-anniversary-direct-every-announcement-and-trailer"},
+        {"label": "Polygon", "url": "https://www.polygon.com/zelda-ocarina-of-time-remake-gameplay-release-date/"}
+      ]
+    },
+    {
+      "tier": "Nintendo",
+      "image": "images/official/metroid-kirby-new-games.jpg",
+      "imageCredit": "Nintendo / Nintendo Life",
+      "headline": "New Metroid AND new Kirby both announced in one Direct",
+      "why": "Two of your core Nintendo franchises get fresh entries.",
+      "summary": "Metroid Ravenous is a brand-new 2D side-scrolling Metroid entry. Kirby and the World Beyond is a 3D platformer marking Kirby's 35th anniversary. Both revealed back-to-back at the Sept 9 Nintendo Direct. Nintendo also confirmed the Kirby Air Riders amiibo line closes out with a final wave (Sword Kirby & Dragoon, Noir Dedede & Hydra) shipping in 2027.",
+      "keyFacts": [
+        "Metroid Ravenous: 2D, launches January 28, 2027",
+        "Kirby and the World Beyond: 3D platformer, launches spring 2027 (Kirby's 35th anniversary)",
+        "Kirby Air Riders' final amiibo wave revealed — set closes at 7 figures total"
+      ],
+      "sources": [
+        {"label": "GameInformer", "url": "https://gameinformer.com/nintendo-direct/2026/09/09/nintendo-reveals-metroid-ravenous-a-new-2d-entry-out-in-january"}
+      ]
+    },
+    {
+      "tier": "Nintendo",
+      "image": "images/official/fire-emblem-fortunes-weave.jpg",
+      "imageCredit": "Nintendo / Serenes Forest",
+      "headline": "NEW: Fire Emblem: Fortune's Weave announced — a new mainline tactics RPG, Sept 17, 2026",
+      "why": "Fresh since this morning — a brand-new Fire Emblem is dropping in 4 days, and tactics RPGs sit right in your genre lane.",
+      "summary": "Nintendo confirmed a new mainline Fire Emblem entry with a surprisingly close release date. Box art and pricing have been revealed alongside the announcement.",
+      "keyFacts": [
+        "Release date: September 17, 2026 (this week)",
+        "Genre: mainline tactics RPG",
+        "Platform: Nintendo Switch / Switch 2"
+      ],
+      "sources": [
+        {"label": "Nintendo Life", "url": "https://www.nintendolife.com/news/2026/06/fire-emblem-fortunes-weave-price-and-box-art-revealed"}
+      ]
+    },
+    {
+      "tier": "Nintendo",
+      "image": "images/official/mario-kart-world-update.jpg",
+      "imageCredit": "Nintendo / Nintendo Life",
+      "headline": "Mario Kart World's biggest free update yet — 10 retro SNES tracks, bigger online rooms",
+      "why": "Mario Kart World is already in your library; free content beats a paywall.",
+      "summary": "The v1.8.0 update (Sept 9) adds 10 tracks reimagined from the original Super Mario Kart (Choco Island, Vanilla Lake, Ghost Valley, and more) into VS mode, two new Knockout Tour routes, and a new Spectator Mode. Follow-up details confirmed online rooms now hold up to 26 players.",
+      "keyFacts": [
+        "Update version: v1.8.0, live now — free, no purchase required",
+        "10 retro SNES-era tracks added to VS mode",
+        "New: Spectator Mode, 2 new Knockout Tour routes",
+        "Online rooms expanded to up to 26 players"
+      ],
+      "sources": [
+        {"label": "GamesRadar", "url": "https://www.gamesradar.com/games/super-mario/mario-kart-worlds-best-free-update-yet-adds-10-retro-tracks-from-super-mario-kart-today/"}
+      ]
+    },
+    {
+      "tier": "Nintendo",
+      "image": "images/official/xenoblade-switch2-edition.jpg",
+      "imageCredit": "Nintendo, Monolith Soft / Gematsu",
+      "headline": "Xenoblade Chronicles 3 – Switch 2 Edition confirmed for Dec 3, 2026",
+      "why": "Xenoblade is on your radar — this is a big upgrade, not just a port.",
+      "summary": "4K/60fps, fully voiced cutscenes, a new wave-battle mode ('Heroes' Vault'), and a new hero named Shimmer. $9.99 upgrade for existing owners. Monster Hunter Wilds also got a Switch 2 date the same week (Dec 4), with free future updates and wireless local play — a good week for Switch 2 upgrades generally.",
+      "keyFacts": [
+        "Release date: December 3, 2026",
+        "4K/60fps on Switch 2, fully voiced cutscenes",
+        "New mode: Heroes' Vault (wave battles) + new hero Shimmer",
+        "Upgrade price for existing owners: $9.99",
+        "Also this week: Monster Hunter Wilds dated for Switch 2, Dec 4, 2026"
+      ],
+      "sources": [
+        {"label": "Gematsu", "url": "https://www.gematsu.com/2026/09/xenoblade-chronicles-3-nintendo-switch-2-edition-reveals-heroes-vault-mode-new-hero-shimmer"}
+      ]
+    },
+    {
+      "tier": "Nintendo",
+      "image": "images/official/switch2-firmware-sale.jpg",
+      "imageCredit": "Nintendo / Nintendo Life",
+      "headline": "NEW: Switch 2 firmware v23.0.0 adds docked VRR + an eShop sale is live through Sept 26",
+      "why": "Practical, actionable Switch 2 news — a performance upgrade and a real chance to save money right now.",
+      "summary": "System update v23.0.0 brings Variable Refresh Rate to docked/TV mode (previously handheld-only), plus full system-to-system data transfer for Switch 2-to-Switch 2. Separately, Nintendo's eShop 'Customer Appreciation' sale is live now through Sept 26, with discounts up to 30% off.",
+      "keyFacts": [
+        "Firmware v23.0.0: docked TV VRR support (new), full data transfer between two Switch 2 units",
+        "eShop sale: live Sept 12–26, 2026, up to 30% off",
+        "VRR currently only confirmed working in the Welcome Tour app"
+      ],
+      "sources": [
+        {"label": "Nintendo Life", "url": "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-system-update-23-0-0-is-now-live-here-are-the-full-patch-notes"}
+      ]
+    },
+    {
+      "tier": "FFVII",
+      "image": "images/official/ffvii-revelation-reveal.jpg",
+      "imageCredit": "Square Enix / PlayStation.Blog",
+      "headline": "The FFVII Remake trilogy finale finally has a name and date: Final Fantasy VII Revelation, April 8, 2027",
+      "why": "Your personal flagship series — and it's launching day-one on every platform, not PS5-timed-exclusive.",
+      "summary": "Announced at PlayStation's Sept 3 State of Play. Simultaneous release on PS5, Switch 2, Xbox Series X|S, and PC. The Collector's Edition reveal also confirmed a Story Expansion Pass with two post-launch DLCs: one Sephiroth-focused, one centered on Vincent & the Turks.",
+      "keyFacts": [
+        "Official title: Final Fantasy VII Revelation",
+        "Release date: April 8, 2027",
+        "Platforms: PS5, Switch 2, Xbox Series X|S, PC — all day one",
+        "Story Expansion Pass (Sephiroth DLC, then Vincent & the Turks DLC): Winter 2027–Spring 2028",
+        "A Trilogy Edition bundling Remake Intergrade + Rebirth is available for pre-order"
+      ],
+      "sources": [
+        {"label": "Square Enix", "url": "https://na.finalfantasy.com/news/2824"},
+        {"label": "Gematsu", "url": "https://www.gematsu.com/2026/06/final-fantasy-vii-revelation-announced-for-ps5-xbox-series-switch-2-and-pc"}
+      ]
+    },
+    {
+      "tier": "FFVII",
+      "image": "images/official/ffvii-midgar-design.jpg",
+      "imageCredit": "Square Enix (Rebirth box art) / Wikipedia",
+      "headline": "Director confirms Midgar in Revelation won't be the fully explorable Remake version",
+      "why": "Directly answers the linear-vs-open-world / explorable-Midgar question you've been posting about.",
+      "summary": "In interviews around the reveal, director Naoki Hamaguchi confirmed players do revisit Midgar — recreating the original game's late-story Mako Cannon raid moment — but it's been streamlined/scaled down from Remake's sprawling, corridor-heavy version to fit inside a planet-spanning open world. You'll traverse that world via the airship Highwind, which can be flown with no invisible walls. Hamaguchi also said the team is trimming some of Rebirth's minigame/content bloat in response to fan feedback.",
+      "keyFacts": [
+        "Midgar returns but is NOT the fully open, walkable city from Remake — it's condensed",
+        "World traversal: airship Highwind, no invisible walls, full planet loop",
+        "Team is deliberately trimming minigame/busywork bloat vs. Rebirth",
+        "Comes from director Naoki Hamaguchi's post-reveal interviews (early-mid Sept 2026)"
+      ],
+      "sources": [
+        {"label": "Polygon", "url": "https://www.polygon.com/final-fantasy-7-revelation-midgar-interview/"},
+        {"label": "Automaton West", "url": "https://automaton-media.com/en/interviews/final-fantasy-7-revelations-open-world-evolves-another-step-beyond-rebirth-director-naoki-hamaguchi-on-map-design-player-freedom-and-new-battle-systems/"}
+      ]
+    },
+    {
+      "tier": "Taste Match",
+      "image": "images/official/pokemon-champions-update.jpg",
+      "imageCredit": "The Pokémon Company",
+      "headline": "NEW: Pokémon Champions update 1.2.0 adds 6 new Mega Evolutions",
+      "why": "Pokémon is one of your core Nintendo interests, and this is a meaty content drop, not a minor patch.",
+      "summary": "Regulation Set M-C is live, adding 6 new Mega Evolutions and 24 more battle-ready Pokémon, plus quality-of-life improvements to the battle log and team-selection UI.",
+      "keyFacts": [
+        "Update: v1.2.0 / Regulation Set M-C, live now",
+        "Adds: 6 new Mega Evolutions, 24 more battle-ready Pokémon",
+        "Also: battle log and team-selection UI improvements"
+      ],
+      "sources": [
+        {"label": "Pokémon Company press release", "url": "https://asia-press.portal-pokemon.com/press-release/pokemon-champions_20260830/"}
+      ]
+    },
+    {
+      "tier": "Taste Match",
+      "image": "images/official/astro-bot-dlc.jpg",
+      "imageCredit": "Team Asobi, Sony / PlayStation.Blog",
+      "headline": "Astro Bot's free DLC adds Stellar Blade's Eve and a Helldiver as rescuable bots",
+      "why": "Feel-good platformer + GOTY/awards-culture crossover, right in your lane.",
+      "summary": "A free content drop adds 5 new online speedrun levels and 10 rescuable bots, including guest cameos styled after Stellar Blade's Eve and a Helldivers 2 Helldiver. Team Asobi's studio head was asked directly why Square Enix characters like Cloud haven't shown up and gave a non-answer — a small irony worth noting for an FFVII fan.",
+      "keyFacts": [
+        "Free DLC — already live, no purchase needed",
+        "Adds: 5 online speedrun levels, 10 new rescuable guest bots",
+        "Guest cameos: Stellar Blade's Eve, a Helldivers 2 Helldiver",
+        "No Square Enix/Cloud cameo yet, despite fan requests"
+      ],
+      "sources": [
+        {"label": "Arcader", "url": "https://arcader.org/news/astro-bots-free-dlc-adds-stellar-blades-eve-and-a-helldiver-to-save/"}
+      ]
+    }
+  ]
+}

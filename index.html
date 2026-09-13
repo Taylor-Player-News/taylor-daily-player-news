@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Gaming Pack — @augmc2</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f1115">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Gaming Pack">
+<link rel="apple-touch-icon" href="images/app-icon.png">
+<link rel="icon" type="image/png" href="images/app-icon.png">
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #171a21;
+    --card-border: #262a35;
+    --accent: #ff5d5d;
+    --accent-2: #5db8ff;
+    --accent-3: #ffd75d;
+    --text: #eef1f7;
+    --muted: #9aa3b2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: radial-gradient(circle at 20% -10%, #1c2130 0%, var(--bg) 55%);
+    color: var(--text);
+    padding: 32px 16px 64px;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  header { margin-bottom: 28px; }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 12px;
+    color: var(--accent-2);
+    font-weight: 700;
+  }
+  h1 {
+    font-size: 30px;
+    margin: 6px 0 4px;
+    line-height: 1.15;
+  }
+  .subtitle { color: var(--muted); font-size: 14px; }
+  .updated-badge {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 11.5px;
+    color: #9ae6b4;
+    background: rgba(60, 200, 120, 0.12);
+    border: 1px solid rgba(60, 200, 120, 0.35);
+    padding: 3px 10px;
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+  }
+  .thesis {
+    margin-top: 16px;
+    padding: 14px 16px;
+    border-left: 3px solid var(--accent);
+    background: rgba(255, 93, 93, 0.08);
+    border-radius: 6px;
+    font-size: 14px;
+    color: #ffd9d9;
+  }
+  .item {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 18px;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+  .item:hover { transform: translateY(-2px); border-color: #3a4256; }
+  .item-image-wrap { position: relative; }
+  .item-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+    background: #10131a;
+  }
+  .image-credit {
+    position: absolute;
+    bottom: 6px;
+    right: 10px;
+    font-size: 10.5px;
+    color: rgba(255,255,255,0.75);
+    background: rgba(0,0,0,0.45);
+    padding: 2px 7px;
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+  }
+  .item-body { padding: 18px 20px; }
+  .tier-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 3px 9px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+  }
+  .tier-Nintendo { background: rgba(93, 184, 255, 0.15); color: var(--accent-2); }
+  .tier-FFVII { background: rgba(255, 93, 93, 0.15); color: var(--accent); }
+  .tier-Taste.Match, .tier-Taste { background: rgba(255, 215, 93, 0.15); color: var(--accent-3); }
+  .tier-Nostalgia { background: rgba(160, 160, 220, 0.15); color: #b8b8f0; }
+  .tier-Wildcard { background: rgba(120, 220, 170, 0.15); color: #7fe6b3; }
+  .tier-Adventure { background: rgba(230, 160, 255, 0.15); color: #e6a0ff; }
+  .headline { font-size: 18px; font-weight: 650; margin: 0 0 6px; line-height: 1.3; }
+  .why {
+    font-size: 13px;
+    font-style: italic;
+    color: var(--muted);
+    margin: 0 0 10px;
+  }
+  .why::before { content: "Why you care: "; font-style: normal; color: #7f8ba0; }
+  .summary { font-size: 14.5px; line-height: 1.5; color: #cdd3e0; margin: 0 0 10px; }
+  .facts {
+    list-style: none;
+    margin: 0 0 12px;
+    padding: 0;
+    display: grid;
+    gap: 6px;
+  }
+  .facts li {
+    font-size: 13px;
+    color: #b7c0d1;
+    padding-left: 18px;
+    position: relative;
+    line-height: 1.4;
+  }
+  .facts li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: var(--accent-2);
+  }
+  .sources { display: flex; flex-wrap: wrap; gap: 8px; }
+  .sources a {
+    font-size: 12.5px;
+    color: var(--accent-2);
+    text-decoration: none;
+    border: 1px solid #2b3550;
+    padding: 4px 10px;
+    border-radius: 999px;
+  }
+  .sources a:hover { background: rgba(93, 184, 255, 0.1); }
+  footer {
+    margin-top: 32px;
+    font-size: 12.5px;
+    color: var(--muted);
+    text-align: center;
+    line-height: 1.6;
+  }
+  footer a { color: var(--accent-2); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Daily Gaming Pack · @augmc2</div>
+    <h1 id="date-heading">Loading…</h1>
+    <div class="subtitle">Nintendo-forward · FFVII flagship · platformers &amp; big adventures · no esports wire</div>
+    <div id="updated-badge" class="updated-badge" style="display:none"></div>
+    <div class="thesis">Daily pack for a Nintendo-forward player whose personal GOAT conversation includes FFVII Remake, who likes platformers and big adventure games, and who wants hype + design news, not an esports wire.</div>
+  </header>
+  <main id="items"></main>
+  <footer>
+    Generated automatically each morning from a personalization profile built off @augmc2's own posting history.<br>
+    Data file: <code>data/&lt;date&gt;.json</code> — swap in a new file daily to refresh this page.
+  </footer>
+</div>
+<script>
+  async function load() {
+    const path = window.location.search.includes('date=')
+      ? new URLSearchParams(window.location.search).get('date')
+      : '2026-09-13';
+    const res = await fetch(`data/${path}.json?_=${Date.now()}`);
+    const data = await res.json();
+    document.getElementById('date-heading').textContent =
+      new Date(data.date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+    if (data.lastUpdated) {
+      const badge = document.getElementById('updated-badge');
+      const d = new Date(data.lastUpdated);
+      badge.textContent = `Last refreshed ${d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })}`;
+      badge.style.display = 'inline-block';
+    }
+    const main = document.getElementById('items');
+    main.innerHTML = data.items.map(item => `
+      <article class="item">
+        ${item.image ? `<div class="item-image-wrap"><img class="item-image" src="${item.image}" alt="${item.headline}" loading="lazy">${item.imageCredit ? `<span class="image-credit">© ${item.imageCredit}</span>` : ''}</div>` : ''}
+        <div class="item-body">
+          <span class="tier-badge tier-${item.tier.replace(/\s+/g, '.')}">${item.tier}</span>
+          <p class="headline">${item.headline}</p>
+          <p class="why">${item.why}</p>
+          <p class="summary">${item.summary}</p>
+          ${item.keyFacts && item.keyFacts.length ? `<ul class="facts">${item.keyFacts.map(f => `<li>${f}</li>`).join('')}</ul>` : ''}
+          <div class="sources">
+            ${item.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.label}</a>`).join('')}
+          </div>
+        </div>
+      </article>
+    `).join('');
+  }
+  load().catch(err => {
+    document.getElementById('items').innerHTML = `<p style="color:#ff8080">Couldn't load today's pack: ${err}</p>`;
+  });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
+</script>
+</body>
+</html>
