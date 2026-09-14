@@ -1,12 +1,12 @@
 {
-  "name": "Daily Gaming Pack — @augmc2",
+  "name": "Charlie's Daily Gaming Pack",
   "short_name": "Gaming Pack",
-  "description": "Personalized daily gaming news digest tuned to @augmc2's interests.",
+  "description": "Personalized daily gaming news digest for Charlie — Nintendo-first, FF7-flagship, Xbox/handheld second rail.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0f1115",
-  "theme_color": "#0f1115",
+  "background_color": "#0f1220",
+  "theme_color": "#0f1220",
   "orientation": "portrait",
   "icons": [
     { "src": "images/app-icon.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any maskable" }

@@ -2,219 +2,187 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Daily Gaming Pack — @augmc2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charlie's Daily Gaming Pack — Sep 14, 2026</title>
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#0f1115">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Gaming Pack">
 <link rel="apple-touch-icon" href="images/app-icon.png">
-<link rel="icon" type="image/png" href="images/app-icon.png">
+<meta name="theme-color" content="#0f1220">
 <style>
-  :root {
-    --bg: #0f1115;
-    --card: #171a21;
-    --card-border: #262a35;
-    --accent: #ff5d5d;
-    --accent-2: #5db8ff;
-    --accent-3: #ffd75d;
-    --text: #eef1f7;
-    --muted: #9aa3b2;
+  :root{
+    --bg:#0f1220; --card:#171b2e; --card2:#1d2238; --text:#e9ecf5; --muted:#98a0bd;
+    --accent:#ff5d73; --accent2:#5ec2ff; --tierA:#ff5d73; --tierB:#5ec2ff; --tierC:#ffd166;
   }
-  * { box-sizing: border-box; }
-  html {
-    background: var(--bg);
+  *{box-sizing:border-box;}
+  body{
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:linear-gradient(180deg,#0b0d18,#0f1220 250px,#0f1220);
+    color:var(--text); line-height:1.45;
   }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: radial-gradient(circle at 20% -10%, #1c2130 0%, var(--bg) 55%);
-    color: var(--text);
-    padding: calc(32px + env(safe-area-inset-top)) 16px calc(64px + env(safe-area-inset-bottom));
-    min-height: 100vh;
+  .wrap{max-width:720px;margin:0 auto;padding:0 16px 60px;}
+  header{padding:28px 16px 18px;text-align:center;}
+  header h1{font-size:1.5rem;margin:0 0 4px;letter-spacing:-0.02em;}
+  header .sub{color:var(--muted);font-size:0.92rem;margin:0;}
+  header .date{color:var(--accent2);font-weight:600;font-size:0.85rem;margin-top:6px;}
+  .banner{
+    background:var(--card2); border:1px solid #2a3050; border-radius:14px; padding:14px 16px; margin:16px 0 22px;
+    font-size:0.88rem; color:var(--muted);
   }
-  .wrap { max-width: 780px; margin: 0 auto; }
-  header { margin-bottom: 28px; }
-  .eyebrow {
-    text-transform: uppercase;
-    letter-spacing: 0.14em;
-    font-size: 12px;
-    color: var(--accent-2);
-    font-weight: 700;
+  .banner b{color:var(--text);}
+  .banner a{color:var(--accent2);}
+  .section-title{
+    font-size:0.78rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--muted);
+    margin:28px 0 12px; display:flex; align-items:center; gap:8px;
   }
-  h1 {
-    font-size: 30px;
-    margin: 6px 0 4px;
-    line-height: 1.15;
+  .section-title::after{content:"";flex:1;height:1px;background:#252b45;}
+  .card{
+    background:var(--card); border-radius:16px; overflow:hidden; margin-bottom:16px;
+    border:1px solid #232945; display:flex; flex-direction:column;
   }
-  .subtitle { color: var(--muted); font-size: 14px; }
-  .updated-badge {
-    display: inline-block;
-    margin-top: 10px;
-    font-size: 11.5px;
-    color: #9ae6b4;
-    background: rgba(60, 200, 120, 0.12);
-    border: 1px solid rgba(60, 200, 120, 0.35);
-    padding: 3px 10px;
-    border-radius: 999px;
-    letter-spacing: 0.02em;
+  .card img{width:100%; height:200px; object-fit:cover; display:block; background:#1d2238;}
+  .card-body{padding:14px 16px 16px;}
+  .tier-tag{
+    display:inline-block; font-size:0.68rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:0.05em; padding:3px 8px; border-radius:20px; margin-bottom:8px;
   }
-  .thesis {
-    margin-top: 16px;
-    padding: 14px 16px;
-    border-left: 3px solid var(--accent);
-    background: rgba(255, 93, 93, 0.08);
-    border-radius: 6px;
-    font-size: 14px;
-    color: #ffd9d9;
+  .tier-A{background:rgba(255,93,115,0.15); color:var(--tierA);}
+  .tier-B{background:rgba(94,194,255,0.15); color:var(--tierB);}
+  .tier-C{background:rgba(255,209,102,0.15); color:var(--tierC);}
+  .card h3{margin:2px 0 6px; font-size:1.08rem; line-height:1.3;}
+  .card .hook{color:#c7cce0; font-size:0.94rem; margin:0 0 8px;}
+  .meta{display:flex; justify-content:space-between; align-items:center; margin-top:10px; flex-wrap:wrap; gap:6px;}
+  .meta .src{font-size:0.74rem; color:var(--muted);}
+  .meta .src a{color:var(--muted); text-decoration:underline;}
+  .rank{
+    font-weight:800; color:#4c5170; font-size:1.6rem; position:relative; top:2px; margin-right:6px;
   }
-  .item {
-    background: var(--card);
-    border: 1px solid var(--card-border);
-    border-radius: 12px;
-    overflow: hidden;
-    margin-bottom: 18px;
-    transition: transform 0.15s ease, border-color 0.15s ease;
+  .queue{background:var(--card2); border:1px solid #2a3050; border-radius:14px; padding:4px 16px;}
+  .queue-item{
+    display:flex; justify-content:space-between; align-items:baseline; gap:10px;
+    padding:11px 0; border-bottom:1px solid #262c48; font-size:0.9rem;
   }
-  .item:hover { transform: translateY(-2px); border-color: #3a4256; }
-  .item-image-wrap { position: relative; }
-  .item-image {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    display: block;
-    background: #10131a;
-  }
-  .image-credit {
-    position: absolute;
-    bottom: 6px;
-    right: 10px;
-    font-size: 10.5px;
-    color: rgba(255,255,255,0.75);
-    background: rgba(0,0,0,0.45);
-    padding: 2px 7px;
-    border-radius: 999px;
-    letter-spacing: 0.02em;
-  }
-  .item-body { padding: 18px 20px; }
-  .tier-badge {
-    display: inline-block;
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    padding: 3px 9px;
-    border-radius: 999px;
-    margin-bottom: 10px;
-  }
-  .tier-Nintendo { background: rgba(93, 184, 255, 0.15); color: var(--accent-2); }
-  .tier-FFVII { background: rgba(255, 93, 93, 0.15); color: var(--accent); }
-  .tier-Taste.Match, .tier-Taste { background: rgba(255, 215, 93, 0.15); color: var(--accent-3); }
-  .tier-Nostalgia { background: rgba(160, 160, 220, 0.15); color: #b8b8f0; }
-  .tier-Wildcard { background: rgba(120, 220, 170, 0.15); color: #7fe6b3; }
-  .tier-Adventure { background: rgba(230, 160, 255, 0.15); color: #e6a0ff; }
-  .headline { font-size: 18px; font-weight: 650; margin: 0 0 6px; line-height: 1.3; }
-  .why {
-    font-size: 13px;
-    font-style: italic;
-    color: var(--muted);
-    margin: 0 0 10px;
-  }
-  .why::before { content: "Why you care: "; font-style: normal; color: #7f8ba0; }
-  .summary { font-size: 14.5px; line-height: 1.5; color: #cdd3e0; margin: 0 0 10px; }
-  .facts {
-    list-style: none;
-    margin: 0 0 12px;
-    padding: 0;
-    display: grid;
-    gap: 6px;
-  }
-  .facts li {
-    font-size: 13px;
-    color: #b7c0d1;
-    padding-left: 18px;
-    position: relative;
-    line-height: 1.4;
-  }
-  .facts li::before {
-    content: "▸";
-    position: absolute;
-    left: 0;
-    color: var(--accent-2);
-  }
-  .sources { display: flex; flex-wrap: wrap; gap: 8px; }
-  .sources a {
-    font-size: 12.5px;
-    color: var(--accent-2);
-    text-decoration: none;
-    border: 1px solid #2b3550;
-    padding: 4px 10px;
-    border-radius: 999px;
-  }
-  .sources a:hover { background: rgba(93, 184, 255, 0.1); }
-  footer {
-    margin-top: 32px;
-    font-size: 12.5px;
-    color: var(--muted);
-    text-align: center;
-    line-height: 1.6;
-  }
-  footer a { color: var(--accent-2); }
+  .queue-item:last-child{border-bottom:none;}
+  .queue-item .name{font-weight:600;}
+  .queue-item .status{color:var(--accent2); font-size:0.82rem; text-align:right;}
+  footer{margin-top:34px; text-align:center; color:var(--muted); font-size:0.78rem; padding:0 8px;}
+  footer a{color:var(--accent2);}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div class="eyebrow">Daily Gaming Pack · @augmc2</div>
-    <h1 id="date-heading">Loading…</h1>
-    <div class="subtitle">Nintendo-forward · FFVII flagship · platformers &amp; big adventures · no esports wire</div>
-    <div id="updated-badge" class="updated-badge" style="display:none"></div>
-    <div class="thesis">Daily pack for a Nintendo-forward player whose personal GOAT conversation includes FFVII Remake, who likes platformers and big adventure games, and who wants hype + design news, not an esports wire.</div>
+    <h1>🎮 Charlie's Daily Gaming Pack</h1>
+    <p class="sub">Nintendo-first, FF7-flagship, Xbox-nostalgic, handheld-obsessed. Built for one reader.</p>
+    <p class="date">Update — Monday, Sep 14, 2026 · 8:00 AM ET run</p>
   </header>
-  <main id="items"></main>
+
+  <div class="banner">
+    <b>Same-day update, not a full reset.</b> This morning's earlier run already covered the big Sept 9 Direct fallout (Persona 4 Revival, Switch 2 redesign, Duskbloods, MW4 beta wrap, GTA 6 regional rollout). This pack only surfaces what's <b>genuinely new</b> since then — Pokopia's latest patch, an FF7 Revelation design detail, a 2D Zelda rumor, Star Fox, zombies, GTA 6 casting, and a wildcard.
+  </div>
+
+  <div class="section-title">Today's new items</div>
+
+  <div class="card">
+    <img src="images/pokopia.jpg" alt="Pokémon Pokopia">
+    <div class="card-body">
+      <span class="tier-tag tier-A">Tier A · Pokopia</span>
+      <h3><span class="rank">1</span>Pokopia patched to 2.0.1 — the freezes and stuck-loading-screen bugs are dead</h3>
+      <p class="hook">Why you care: this is the game you said "saved my life." Nintendo also confirmed Part 2 of the Expansion Pass (Ditto in sunglasses and a bow tie, more furniture, more Pokémon) for later this year — Part 3's new town is still 2027.</p>
+      <div class="meta"><span class="src">Nintendo Life · Pokémon Company · Sep 8–9</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/ffvii.jpg" alt="Final Fantasy VII Revelation">
+    <div class="card-body">
+      <span class="tier-tag tier-A">Tier A · FF7</span>
+      <h3><span class="rank">2</span>Revelation's job system is called "FITS," not Jobs — and no, you don't get the Wall Market dress as a skin</h3>
+      <p class="hook">Why you care: PAX West interview with Hamaguchi and battle director Teruki Endo. FITS = Warrior/Knight/Black Mage/Summoner-style specialized roles, swappable mid-fight. They wanted the Honeybee Inn/Wall Market outfits as skins but the combat animators vetoed it — heels and dresses don't play nice with the battle system. New non-FITS skins are coming instead. Doesn't resolve your linear-vs-open-world worry, but it's a real design detail, not marketing fluff.</p>
+      <div class="meta"><span class="src">RPG Site · PAX West, Sep 10</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/zelda2d.jpg" alt="2D Zelda">
+    <div class="card-body">
+      <span class="tier-tag tier-A">Tier A · Zelda (rumor)</span>
+      <h3><span class="rank">3</span>Rumor: a new 2D Zelda is in the pipe for 2027, and Ganondorf might be the playable lead</h3>
+      <p class="hook">Why you care: you specifically want 2D Zelda news, not another 3D open-world push. Leaker Nash Weedle (mixed track record — treat as a rumor, not a lock) says Nintendo + Grezzo are building on the Echoes of Wisdom engine, timed after the Switch 2 Ocarina of Time remake. A Sept 2 Nintendo patent grant covering Echoes' "summon an echo to fight for you" mechanic adds a little circumstantial weight but proves nothing about a sequel.</p>
+      <div class="meta"><span class="src">Nintendo Central · GameRant · 4ScarrsGaming</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/starfox.jpg" alt="Star Fox">
+    <div class="card-body">
+      <span class="tier-tag tier-B">Tier B · Star Fox</span>
+      <h3><span class="rank">4</span>Star Fox's free update lands Sept 29 — 4-player split-screen Battle Mode, plus Star Fox Adventures is already on GameCube Classics</h3>
+      <p class="hook">Why you care: this is your gift-from-her game, not just another Nintendo checkbox. Three new Battle stages (Katina, Sector X, Venom), local 4-player split-screen, and up to 4 players teaming up online from one console. Adventures quietly went live on Switch 2 GameCube Classics Sept 9 if you want the on-foot Rare game instead of dogfighting.</p>
+      <div class="meta"><span class="src">Gematsu · GameRant · Sep 9</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/codzombies.jpg" alt="Call of Duty Black Ops 7 Zombies">
+    <div class="card-body">
+      <span class="tier-tag tier-B">Tier B · Xbox/CoD</span>
+      <h3><span class="rank">5</span>Black Ops 7 Zombies' final season drops Sept 17 — Doom crossover, a Super Easter Egg, and Pack-a-Punch IV</h3>
+      <p class="hook">Why you care: real zombies-mode news, and it's a Doom crossover on top. "The Haunting" adds Tenshu survival map, Directed Mode for the final round-based map Rex Infernus, and a Super Easter Egg that unlocks The Warden as a playable operator once you clear all six main quests. No timeline on it competing with your MW4 window — this is Season 6, the last one before MW4 takes over in October.</p>
+      <div class="meta"><span class="src">PlayStation Blog · Dexerto · Sep 8–17</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/gta6.jpg" alt="GTA 6">
+    <div class="card-body">
+      <span class="tier-tag tier-B">Tier B · GTA 6 (horizon)</span>
+      <h3><span class="rank">6</span>First GTA 6 cast confirmation, straight from the actor: Stephen Root is playing Brian Heder</h3>
+      <p class="hook">Why you care: still a horizon event, not hype-of-the-day — but this is a genuinely rare break in Rockstar's silence. Root (Barry, Office Space, King of the Hill) confirmed it himself at a BAFTA press event, unprompted. Nov 19 date unchanged. Collector's-edition box leaks are still floating around Reddit but unverified — not worth chasing.</p>
+      <div class="meta"><span class="src">GTA BOOM · GameRant · Sep 14</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/crash.jpg" alt="Crash Bandicoot">
+    <div class="card-body">
+      <span class="tier-tag tier-C">Wildcard</span>
+      <h3><span class="rank">7</span>Crash Bandicoot's 30th anniversary teasing "something all month" — still no confirmed new game</h3>
+      <p class="hook">Why you care: "I love Crash Bandicoot tbh" — this is for you specifically. Activision's been drip-feeding anniversary art since Sept 2 and fans are reading tea leaves (Crash 5, a Crash Team Racing follow-up, a Netflix show, a Fortnite tie-in). Nothing official yet, and one leaker's claim of "new Crash in 2028" would mean a long wait — treating this as speculation, not a headline, on purpose.</p>
+      <div class="meta"><span class="src">GamingBible · TheGamer · through Sep</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/anbernic.jpg" alt="Anbernic RG DS Plus">
+    <div class="card-body">
+      <span class="tier-tag tier-C">Wildcard · Handheld</span>
+      <h3><span class="rank">8</span>Anbernic's RG DS Plus launches Sept 15 — dual 4.3" screens, built-in stylus, $84.99 for the first 72 hours</h3>
+      <p class="hook">Why you care: you're the handheld/display nerd of the group. Dual-screen clamshell built specifically for DS-era emulation, running Anbernic's own in-house NNDSS emulator on Linux (not Android), with a stylus that actually stores in the shell instead of rattling around. Price jumps to $94.99 after the launch window closes.</p>
+      <div class="meta"><span class="src">Tech Insider · Held Games · launches Sep 15</span></div>
+    </div>
+  </div>
+
+  <div class="section-title">Your personal queue</div>
+  <div class="queue">
+    <div class="queue-item"><span class="name">Pokopia</span><span class="status">v2.0.1 live · Part 2 DLC "late 2026"</span></div>
+    <div class="queue-item"><span class="name">Metroid Prime 4: Beyond</span><span class="status">out now · quiet week</span></div>
+    <div class="queue-item"><span class="name">Switch 2 Ocarina of Time</span><span class="status">Nov 5, 2026</span></div>
+    <div class="queue-item"><span class="name">MW4</span><span class="status">early access Oct 16 · full Oct 23</span></div>
+    <div class="queue-item"><span class="name">GTA 6</span><span class="status">Nov 19 · 1st cast confirm today</span></div>
+    <div class="queue-item"><span class="name">FF7 Revelation</span><span class="status">Apr 8, 2027 · FITS system detailed</span></div>
+    <div class="queue-item"><span class="name">Splatoon Raiders</span><span class="status">out since Jul 23</span></div>
+    <div class="queue-item"><span class="name">Next 2D Zelda</span><span class="status">unconfirmed rumor, 2027</span></div>
+    <div class="queue-item"><span class="name">Next 2D Kirby</span><span class="status">no news — only 3D "World Beyond," spring 2027</span></div>
+    <div class="queue-item"><span class="name">Star Fox Battle Mode update</span><span class="status">Sep 29, 2026</span></div>
+  </div>
+
   <footer>
-    Generated automatically each morning from a personalization profile built off @augmc2's own posting history.<br>
-    Data file: <code>data/&lt;date&gt;.json</code> — swap in a new file daily to refresh this page.
+    Built for Charlie (@cmwkjddi) around Nintendo, FF7, and a real Xbox/handheld second rail. No AI-generated art — every image above is downloaded, compressed press art from the official source linked on its card.<br><br>
+    Permanent home: <a href="https://taylor-player-news.github.io/taylor-daily-player-news/">taylor-player-news.github.io/taylor-daily-player-news</a>
   </footer>
 </div>
 <script>
-  async function load() {
-    const path = window.location.search.includes('date=')
-      ? new URLSearchParams(window.location.search).get('date')
-      : '2026-09-13';
-    const res = await fetch(`data/${path}.json?_=${Date.now()}`);
-    const data = await res.json();
-    document.getElementById('date-heading').textContent =
-      new Date(data.date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
-    if (data.lastUpdated) {
-      const badge = document.getElementById('updated-badge');
-      const d = new Date(data.lastUpdated);
-      badge.textContent = `Last refreshed ${d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })}`;
-      badge.style.display = 'inline-block';
-    }
-    const main = document.getElementById('items');
-    main.innerHTML = data.items.map(item => `
-      <article class="item">
-        ${item.image ? `<div class="item-image-wrap"><img class="item-image" src="${item.image}" alt="${item.headline}" loading="lazy">${item.imageCredit ? `<span class="image-credit">© ${item.imageCredit}</span>` : ''}</div>` : ''}
-        <div class="item-body">
-          <span class="tier-badge tier-${item.tier.replace(/\s+/g, '.')}">${item.tier}</span>
-          <p class="headline">${item.headline}</p>
-          <p class="why">${item.why}</p>
-          <p class="summary">${item.summary}</p>
-          ${item.keyFacts && item.keyFacts.length ? `<ul class="facts">${item.keyFacts.map(f => `<li>${f}</li>`).join('')}</ul>` : ''}
-          <div class="sources">
-            ${item.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.label}</a>`).join('')}
-          </div>
-        </div>
-      </article>
-    `).join('');
-  }
-  load().catch(err => {
-    document.getElementById('items').innerHTML = `<p style="color:#ff8080">Couldn't load today's pack: ${err}</p>`;
-  });
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
+    navigator.serviceWorker.register('sw.js');
   }
 </script>
 </body>
