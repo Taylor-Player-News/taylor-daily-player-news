@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-15",
+  "generatedAtUtc": "2026-09-15T12:20:00Z",
+  "items": [
+    {
+      "rank": 1,
+      "tier": "Nintendo",
+      "headline": "Splatoon Raiders hits 9.4/10 — highest-rated Nintendo franchise game ever",
+      "why": "Single-player, not extraction. You were relieved when it wasn't a Marathon-style extraction shooter — a month later it's the best-reviewed game Nintendo's ever put its franchise name on.",
+      "source": "The Torch",
+      "sourceUrl": "https://shsthetorch.com/47871/arts-entertainment/splatoon-raiders-a-review/",
+      "date": "Sept 14, 2026",
+      "platform": "Switch 2",
+      "image": "images/splatoon_raiders.jpg",
+      "imageCredit": "Nintendo"
+    },
+    {
+      "rank": 2,
+      "tier": "FF7 / Square",
+      "headline": "FFVII Revelation: Queen's Blood is back — and Red XIII, not Cloud, runs the story this time",
+      "why": "The minigame you never skip gets its own arc. Nanaki's boat-deck card obsession from Rebirth becomes an entire storyline in Revelation, with the rules rebalanced from scratch.",
+      "source": "Game Informer",
+      "sourceUrl": "https://gameinformer.com/state-of-play/2026/09/03/final-fantasy-vii-revelation-extended-gameplay-look-highlights-wutai",
+      "date": "Sept 3–10, 2026",
+      "platform": "PS5 / Switch 2 / Xbox / PC — April 8, 2027",
+      "image": "images/ffvii_revelation.jpg",
+      "imageCredit": "Square Enix"
+    },
+    {
+      "rank": 3,
+      "tier": "Nintendo",
+      "headline": "Switch 2 quietly gets a hardware revision — user-replaceable battery, no thermal paste to fight",
+      "why": "Pure hardware-nerd bait: EU units now ship with visible Joy-Con rail screws and a battery you can pop out without redoing thermal paste. Capacity drops under 1%, console gets ~10g heavier. Rolling out beyond Europe eventually.",
+      "source": "Nintendo Life",
+      "sourceUrl": "https://www.nintendolife.com/news/2026/09/video-heres-what-nintendos-revised-switch-2-console-looks-like",
+      "date": "Sept 5–8, 2026",
+      "platform": "Switch 2 (EU rollout)",
+      "image": "images/switch2_battery.jpg",
+      "imageCredit": "Nintendo / Nintendúo teardown"
+    },
+    {
+      "rank": 4,
+      "tier": "Xbox (Asha Sharma)",
+      "headline": "Asha Sharma flew to Tokyo to personally sign Kojima Productions' wall after the PHYSINT deal",
+      "why": "This is the specific Xbox story worth your attention, not the marketing wire — Sharma in a Kojima Productions hoodie, days after Sony walked away from PHYSINT and Xbox picked it up. Real director-level engagement, not a press release.",
+      "source": "Pure Xbox",
+      "sourceUrl": "https://www.purexbox.com/news/2026/09/to-invention-and-adventure-together-xbox-boss-visits-kojima-productions-to-mark-new-era",
+      "date": "Sept 14, 2026",
+      "platform": "Xbox / PHYSINT (no release date yet)",
+      "image": "images/asha_kojima.jpg",
+      "imageCredit": "Hideo Kojima / Kojima Productions"
+    },
+    {
+      "rank": 5,
+      "tier": "GTA 6 (horizon event)",
+      "headline": "GTA 6's cops now remember your face, your car, and your gun — even after you lose them",
+      "why": "Not hype-of-the-day, just the design detail that matters: a new 'heat' system tracks what police actually know about you (clothes, vehicle, weapon) even after your stars drop. GTA 5's shrug-off-anything policing is gone. Nov 19 still holds, preload opens Nov 12.",
+      "source": "GamesRadar+",
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-boss-says-gta-6s-police-can-be-harder-to-shake-off-than-before-but-its-fun-because-it-forces-you-to-think-more/",
+      "date": "Sept 15, 2026",
+      "platform": "PS5 / Xbox Series X|S — Nov 19, 2026",
+      "image": "images/gta6_heat.jpg",
+      "imageCredit": "Rockstar Games"
+    },
+    {
+      "rank": 6,
+      "tier": "Taste match",
+      "headline": "Crash Bandicoot turned 30 this month — and got a Fortnite skin and not much else",
+      "why": "\"I love crash bandicoot tbh\" — well, Activision marked the actual 30th anniversary (Sept 9) with anniversary art and a 1,500 V-Buck skin. A leaker with a real track record (correctly called Spyro: A Realm Beyond) says a new Crash is greenlit, but cautions it's years out. Corporate-cheerful, not the real thing yet.",
+      "source": "mynintendonews / games.gg",
+      "sourceUrl": "https://games.gg/news/new-crash-bandicoot-game-greenlit-rumor/",
+      "date": "Sept 1–12, 2026",
+      "platform": "TBD",
+      "image": "images/crash_bandicoot.jpg",
+      "imageCredit": "Activision"
+    },
+    {
+      "rank": 7,
+      "tier": "Handheld wildcard",
+      "headline": "SteamOS 3.9.1 preview lands with hibernation groundwork and stability fixes",
+      "why": "Steam Deck defender maintenance patch: fan-speed bug fix, suspend/resume fixes for older RDNA1/2 dGPUs, and early hibernation support. Not flashy, but exactly the kind of upkeep that keeps the \"tremendously successful\" argument alive.",
+      "source": "Steam Deck News",
+      "sourceUrl": "https://www.steamdeck.com/en/news",
+      "date": "Sept 14, 2026",
+      "platform": "Steam Deck (Preview channel)",
+      "image": "images/steamdeck.jpg",
+      "imageCredit": "Valve"
+    }
+  ],
+  "queue": [
+    { "title": "Pokopia", "status": "v2.0.1 stable, Expansion Pass Part 2 (Ditto + accessories) still \"late 2026\"" },
+    { "title": "Metroid Prime 4: Beyond", "status": "Out now — producer Tanabe has retired after 40 years; no sequel confirmed" },
+    { "title": "Switch 2 Ocarina of Time", "status": "Nov 5, 2026 — 51 days out" },
+    { "title": "MW4", "status": "Early access Oct 16, full launch Oct 23 — still not on Game Pass at launch; SBMM backlash, no dev response planned" },
+    { "title": "GTA 6", "status": "Nov 19, 2026 — preload opens Nov 12; PS5/Xbox only, no PC/Switch 2 confirmed" },
+    { "title": "FF7 Revelation", "status": "April 8, 2027 — Collector's Edition $349.99, two Story DLCs (Sephiroth; Vincent & Turks) Winter '27–Spring '28" },
+    { "title": "Splatoon Raiders", "status": "9.4/10 critic score — confirmed single-player, not extraction" },
+    { "title": "Next 2D Zelda", "status": "Still just the \"Bernard\" rumor (Grezzo, 2027) — no official movement since early Sept" },
+    { "title": "Next 2D Kirby", "status": "Nothing — World Beyond (spring 2027) is 3D, not the 2D entry you actually want" }
+  ]
+}
